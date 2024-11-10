@@ -51,8 +51,8 @@ public class SortExample
  		  j--;
  		}
 
- 	//Now compare values from both side of lists to see if they need swapping 
- 	//After swapping move the iterator on both lists
+ 		//Now compare values from both side of lists to see if they need swapping 
+ 		//After swapping move the iterator on both lists
  		if (i <= j) 
  		{
  		swap (arr, i, j);
