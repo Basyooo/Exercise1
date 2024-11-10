@@ -55,7 +55,7 @@ public class SortExample
  		//After swapping move the iterator on both lists
  		if (i <= j) 
  		{
- 		swap (arr, i, j);
+ 		  swap (arr, i, j);
  		}
 
  		i++;
@@ -64,11 +64,11 @@ public class SortExample
 
  	//Do same operation as above recursively to sort two sub arrays
  	if (low < j){
- 	quickSort(arr, low, j);
+ 	  quickSort(arr, low, j);
  	}
 
  	if (high > i){
- 	quickSort(arr, i, high);
+ 	  quickSort(arr, i, high);
  	}
  }
 
@@ -135,7 +135,7 @@ private static boolean isSorted(int[] x)
 	{
  		if (x[i] > x[i + 1])
 		{
- 		return false;
+ 		 return false;
 		}
 
 
